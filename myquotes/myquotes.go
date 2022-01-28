@@ -6,17 +6,17 @@ import (
 	"rsc.io/quote"
 )
 
-func helloQuote() {
+func HelloQuote() {
 	fmt.Println(quote.Hello())
 }
 
-func glassQuote() {
+func GlassQuote() {
 	fmt.Println(quote.Glass())
 }
 
-func goQuote() {
+func GoQuote() {
 	fmt.Println(quote.Go())
 }
-func optQuote() {
+func OptQuote() {
 	fmt.Println(quote.Opt())
 }
